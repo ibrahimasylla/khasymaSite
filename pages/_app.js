@@ -16,10 +16,9 @@ import '@/public/css/rtl.css'
 import Layout from '@/components/_App/Layout'
 import { Provider } from 'react-redux'
 import { ToastProvider } from 'react-toast-notifications'
-import { useStore } from '../store'
+
 
 export default function App({ Component, pageProps }) {
-    const store = useStore(pageProps.initialReduxState)
 
     return (
         <ToastProvider 
@@ -27,10 +26,10 @@ export default function App({ Component, pageProps }) {
             autoDismissTimeout={6000}
             autoDismiss
         >
-            <Provider store={store}>
+
                 <Layout />
                 <Component {...pageProps} />
-            </Provider>
+
         </ToastProvider>
     )
 }

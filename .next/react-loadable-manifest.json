@@ -1,8 +1,8 @@
 {
   "../components/DigitalAgency/Projects.js -> react-owl-carousel3": {
-    "id": 8694,
+    "id": "../components/DigitalAgency/Projects.js -> react-owl-carousel3",
     "files": [
-      "static/chunks/617777a1-1644fe3b1f74e2ae.js"
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
     ]
   }
 }
