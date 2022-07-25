@@ -1,5 +1,4 @@
 import '@/public/css/bootstrap.min.css'
-import 'animate.css'
 import '@/public/css/boxicons.min.css'
 import '@/public/css/flaticon.css'
 import "@/public/css/slick.css"
@@ -14,7 +13,6 @@ import '@/public/css/rtl.css'
 // import '@/public/css/colors/purple-style.css'  
 
 import Layout from '@/components/_App/Layout'
-import { Provider } from 'react-redux'
 import { ToastProvider } from 'react-toast-notifications'
 
 

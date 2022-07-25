@@ -1,7 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/404": "pages/404.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.js",
-  "/": "pages/index.js"
+  "/about-1": "pages/about-1.js",
+  "/contact": "pages/contact.js",
+  "/feature-details": "pages/feature-details.js",
+  "/features": "pages/features.js",
+  "/": "pages/index.js",
+  "/feedback": "pages/feedback.js",
+  "/project-details": "pages/project-details.js",
+  "/projects-2": "pages/projects-2.js",
+  "/services-5": "pages/services-5.js",
+  "/team": "pages/team.js"
 }
