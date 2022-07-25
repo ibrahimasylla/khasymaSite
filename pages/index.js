@@ -6,7 +6,6 @@ import AboutUsContent from "@/components/DigitalAgency/AboutUsContent";
 
 import Projects from "@/components/DigitalAgency/Projects";
 
-import CTAStyleTwo from "@/components/Common/CTAStyleTwo";
 import Footer from "@/components/_App/Footer";
 
 
@@ -22,7 +21,7 @@ const DigitalAgency = () => {
 
       <Projects />
 
-      <CTAStyleTwo />
+
       <Footer />
     </>
   );

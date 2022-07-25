@@ -2,8 +2,7 @@ import React from 'react'
 import Navbar from "@/components/_App/Navbar"
 import Footer from "@/components/_App/Footer"
 import PageBanner from '@/components/Common/PageBanner'
-import ProductSlider from '@/components/Shop/ProductSlider'
-import ProductsDetailsTabs from '@/components/Shop/ProductsDetailsTabs'
+
 import * as Icon from 'react-feather'
 import { useSelector, useDispatch } from 'react-redux'
 import { useRouter } from 'next/router'
@@ -44,7 +43,6 @@ const ProductDetails = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5">
-                            <ProductSlider images={product && product.images} />
                         </div>
 
                         <div className="col-lg-7">
@@ -135,7 +133,6 @@ const ProductDetails = () => {
                         </div>
 
                         <div className="col-lg-12 col-md-12">
-                            <ProductsDetailsTabs />
                         </div>
                     </div>
                 </div>
